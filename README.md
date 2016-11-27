@@ -62,6 +62,7 @@ That's it! now you can launch your favorite program by typing `prog` into the in
 simply bring the GUI up and write `?`. try everything you see! it worth a try.
 
 **How to Automate this shit?** 
+
 1. stay calm!
 2. go to windows `Task Scheduler` by searching it.
 3. create a basic task, give it a name and proceed. then in the program/script field select `PeeKeeLoo.ahk`.
