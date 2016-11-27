@@ -8,7 +8,7 @@ This is a small GUI that allows you to run any normal AutoHotkey command or bloc
 
 ### How to prepare?
 
-First of all, you must download the *AutoHotkey* at [this](www.autohotkey.com/download/),and install it. The installation process is quite simple.
+First of all, you must download the *AutoHotkey* at [this](https://www.autohotkey.com/download/ahk-install.exe),and install it. The installation process is quite simple.
 
 After the Installation, clone or download this repo and place it somewhere that you prefer.then execute the `PeeKeeLoo.ahk`. you must see an eggplant icon in your system tray area! that's done, you make it!
 
