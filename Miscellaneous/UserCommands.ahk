@@ -216,7 +216,7 @@ else if Pedersen = name ; My name
 else if Pedersen = phone ; My phone number
 {
     gui_destroy()
-    SendRaw, +989379941103
+    SendRaw, +989038308784
 }
 else if Pedersen = add ; My full address
 {
@@ -227,6 +227,16 @@ else if Pedersen = paste ; Paste clipboard content without formatting
 {
     gui_destroy()
     SendRaw, %ClipBoard%
+}
+else if Pedersen = jun ; Paste clipboard content without formatting
+{
+    gui_destroy()
+    Send, jupyter notebook
+}
+else if Pedersen = jub ; Paste clipboard content without formatting
+{
+    gui_destroy()
+    Send, jupyter lab
 }
 
 
