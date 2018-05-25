@@ -1,4 +1,4 @@
-
+﻿
 ; Note: Save with encoding UTF-8 with BOM if possible.
 ; I had issues with RTL characters like Persian that wouldn't work otherwise.
 ; Notepad will save UTF-8 files with BOM automatically (even though it does not say so).
@@ -228,12 +228,12 @@ else if Pedersen = paste ; Paste clipboard content without formatting
     gui_destroy()
     SendRaw, %ClipBoard%
 }
-else if Pedersen = jun ; Paste clipboard content without formatting
+else if Pedersen = jun ; type raw text 'jupyter notebook'
 {
     gui_destroy()
     Send, jupyter notebook
 }
-else if Pedersen = jub ; Paste clipboard content without formatting
+else if Pedersen = jul ; type raw text 'jupyter lab'
 {
     gui_destroy()
     Send, jupyter lab
